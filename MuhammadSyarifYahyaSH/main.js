@@ -17,7 +17,7 @@ const pool = mariadb.createPool({
 });
 
 app.get('/', (_req, res) => {
-  res.send('Hello Syarif!')
+  res.send('Hello Syarif Yahya!')
 });
 
 app.get('/notes', async (_req, res) => {
